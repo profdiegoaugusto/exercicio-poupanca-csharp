@@ -1,1 +1,5 @@
-# exercicio-poupanca-csharp
+# Exercício - Programação Baseada em Objetos
+
+Crie a classe ContaPoupanca. Use a variável static taxaDeJurosAnual para armazenar a taxa de juros de todos os correntistas. Cada objeto da classe contém uma variável de instância private saldoPoupanca, indicando a quantidade  que o poupador possui atualmente depositada. Forneça o método CalcularJuroMensal para calcular os juros mensais, multiplicando  saldoPoupanca por taxaDeJurosAnual, dividido por 12; esses juros devem ser acrescidos a saldoPoupanca. Forneça um método static AlterarTaxaDeJuros que configure taxaDeJurosAnual para um novo valor.
+
+Escreva um programa principal para testar a classe ContaPoupanca. Instancie  dois objetos ContaPoupanca com os nomes: poupador1 e poupador2, com saldos de R$ 2.000,00 e R$ 3.000,00, respectivamente. Configure taxaDeJurosAnual como 4%, e, em seguida, calcule os juros mensais e imprima novos saldos para cada um dos poupadores. Depois, configure taxaDeJurosAnual como 5%, calcule os juros do próximo mês e imprima os novos saldos para cada um dos poupadores.
